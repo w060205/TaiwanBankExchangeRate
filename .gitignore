@@ -1,0 +1,34 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+
+# Django database
+db.sqlite3
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Virtual environments
+venv/
+env/
+
+# IDE folders
+.idea/
+.vscode/
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+
+# Django migrations (if you want to ignore)
+*/migrations/*.py
+*/migrations/__pycache__/
+
+# pytest / coverage
+.coverage
+htmlcov/
+.pytest_cache/
