@@ -60,8 +60,8 @@ cd django-exchange-rate-dashboard
 
 #2.建立虛擬環境並啟動（Windows 用戶請看下方註解）
 python -m venv .venv
-.venv\Scripts\activate     # 👉 Windows
-#source .venv/bin/activate # 👉 macOS / Linux
+.venv\Scripts\activate     #  Windows
+#source .venv/bin/activate #  macOS / Linux
 
 #3.安裝套件
 pip install -r requirements.txt
