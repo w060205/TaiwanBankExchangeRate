@@ -52,8 +52,8 @@
 ├── requirements.txt                 ← 套件安裝清單
 .gitignore ```</pre>
 
+安裝與啟動
 
-專案安裝與啟動
 #1.下載專案
 git clone https://github.com/你的帳號/django-exchange-rate-dashboard.git
 cd django-exchange-rate-dashboard
@@ -61,7 +61,7 @@ cd django-exchange-rate-dashboard
 #2.建立虛擬環境並啟動（Windows 用戶請看下方註解）
 python -m venv .venv
 .venv\Scripts\activate     # 👉 Windows
-# source .venv/bin/activate # 👉 macOS / Linux
+#source .venv/bin/activate # 👉 macOS / Linux
 
 #3.安裝套件
 pip install -r requirements.txt
