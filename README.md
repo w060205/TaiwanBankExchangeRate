@@ -55,7 +55,7 @@
 安裝與啟動
 
 #1.下載專案
-git clone https://github.com/w060205/django-exchange-rate-dashboard.git
+git clone https://github.com/w060205/TaiwanBankExchangeRate.git
 cd django-exchange-rate-dashboard
 
 #2.建立虛擬環境並啟動（Windows 用戶請看下方註解）
