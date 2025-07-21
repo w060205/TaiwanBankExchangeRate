@@ -28,6 +28,7 @@
 台灣銀行匯率資料：https://rate.bot.com.tw/xrt?Lang=zh-TW
 
 ## 專案架構
+<pre lang="markdown">```text
 ├── api/
 │   ├── management/commands/
 │   │   └── fetch_rates.py           ← 自訂匯率抓取指令
@@ -49,7 +50,7 @@
 ├── db.sqlite3                       ← 預設 SQLite 資料庫
 ├── manage.py                        ← Django 指令入口
 ├── requirements.txt                 ← 套件安裝清單
-
+.gitignore ```</pre>
 
 
 專案安裝與啟動
