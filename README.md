@@ -52,32 +52,7 @@
 ├── requirements.txt                 ← 套件安裝清單
 .gitignore ```</pre>
 
-安裝與啟動
 
-#1.下載專案
-
-git clone https://github.com/w060205/TaiwanBankExchangeRate.git
-
-cd TaiwanBankExchangeRate
-
-#2.建立虛擬環境並啟動（Windows 用戶請看下方註解）
-python -m venv .venv
-
-.venv\Scripts\activate     #  Windows
-
-#source .venv/bin/activate #  macOS / Linux
-
-#3.安裝套件
-pip install -r requirements.txt
-
-#4.建立資料庫
-python manage.py migrate
-
-#5.建立 Django 後台帳號（第一次用才需要）
-python manage.py createsuperuser
-
-#6.抓取匯率資料（初始化或排程用）
-python manage.py fetch_rates
 
 #7.啟動伺服器
 python manage.py runserver
