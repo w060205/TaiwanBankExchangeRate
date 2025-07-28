@@ -54,6 +54,4 @@
 
 
 
-#7.啟動伺服器
-python manage.py runserver
 
